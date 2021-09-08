@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(251 239 239);
+}
+
+.chat-box {
+  width: 500px;
+  border: 3px solid hotpink;
+  border-radius: 10px;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 50px auto 10px auto;
+  background-color: white;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 26px;
+}
+
+.chatbot-image {
+  text-align: center;
+}
+
+.user-chat-box {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.user-chat-box input {
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid grey;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  border-radius: 10px;
+  background-color: hotpink;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 23px;
+}
