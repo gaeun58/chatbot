@@ -3,14 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #intro {
+          text-align: center;
+          font-size: 20px;
+          font-weight: bold;
+          color: royalblue;
+        }
+
+        #text-mo, #text-gak, #text-co {
+          border: 1px solid black;
+          width: 550px;
+          margin: 10px auto;
+          text-align: center;
+        }
+
+        .button {
+          text-align: center;
+        }
+
+        button {
+          font-size: 20px;
+          margin: 10px;
+          padding: 20px;
+          border: none;
+          border-radius: 50%;
+          color: white;
+          background-color: royalblue;
+        }
+
+        button:hover {
+          color: royalblue;
+          background-color: white;
+        }
+    </style>
 </head>
 <body>
-  <h1>모</h1>
-  <h1>각</h1>
-  <h1>코</h1>
-  <button onclick="changeText1()">모</button>
-  <button onclick="changeText2()">각</button>
-  <button onclick="changeText3()">코</button>
+    <p id="intro">모각코 삼행시: 맨 아래 버튼을 클릭하세요</p>
+    <h1 id="text-mo">모</h1>
+    <h1 id="text-gak">각</h1>
+    <h1 id="text-co">코</h1>
+    <div class="button">
+      <button onclick="changeText1()">모</button>
+      <button onclick="changeText2()">각</button>
+      <button onclick="changeText3()">코</button>
+  </div>
   <script src="index.js"></script>
 </body>
 </html>
