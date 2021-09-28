@@ -2,7 +2,7 @@ body {
   background-color: rgb(251 239 239);
 }
 
-.chat-box {
+.loopy_says {
   width: 500px;
   border: 3px solid hotpink;
   border-radius: 10px;
@@ -14,16 +14,16 @@ body {
   font-size: 26px;
 }
 
-.chatbot-image {
+.loopy-image {
   text-align: center;
 }
 
-.user-chat-box {
+.order {
   margin-top: 40px;
   text-align: center;
 }
 
-.user-chat-box input {
+.order input {
   width: 400px;
   padding: 10px 20px;
   border-radius: 10px;
