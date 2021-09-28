@@ -4,8 +4,10 @@ function check_text() {
 
     if(value === "안녕") {
         document.getElementsByClassName('loopy_says')[0].innerHTML = '만나서 반가워!';
+
     }
-    else {
-        console.log(value);
+    else if(value === "불꺼줘") {
+        document.getElementsByClassName('loopy_says')[0].innerHTML = '벌써 자려구?';
+        document.body.style.backgroundColor = 'gray';
     }
 }
