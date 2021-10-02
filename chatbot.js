@@ -20,3 +20,36 @@ function check_text() {
         document.body.style.backgroundColor = 'gray';
     }
 }
+
+/*
+function check_text() {
+            var value = document.getElementById("console").value;
+            var order = {
+                BLACK : "불꺼줘",
+                LIGHT : "불켜줘",
+            }
+            console.log(value);
+
+            if(value == order.BLACK){
+                 document.body.style.backgroundColor = 'gray';
+            }else if (value == order.LIGHT){
+                document.body.style.backgroundColor = 'white';
+            }else{
+                var app = document.getElementById("chat");
+                var typewriter = new Typewriter(app, {
+                loop: false,
+                });
+
+                typewriter
+                .typeString("코묘가 알아듣지 못한 것 같다.")
+                .pauseFor(1300)
+                .deleteAll()
+                .typeString("다시 한 번 말해보자.")
+                .pauseFor(2500)
+                .start();
+            }
+
+            document.getElementById('console').value = '';
+
+        }
+ */
